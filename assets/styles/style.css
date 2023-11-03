@@ -66,6 +66,10 @@ body {
     height: 889px;
 
 }
+.section-head__image_up {
+    position: absolute;
+}
+
 .section-head__header {
     width: 1322px ;
     height: 91px;
@@ -139,6 +143,157 @@ body {
     width: 12px;
 }
 
+
+.section-head__description {
+    display: flex;
+    width: 1050px;
+    padding: 112px 0px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 80px;
+    position: absolute;
+    margin: 104px 195px 80px 195px;
+
+}
+.section-head__description-mini {
+    display: flex;
+    width: 599px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 35px;
+}
+.section-head-welcome {
+    color: #23A6F0;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+.section-head-center {
+    color: #FFF;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+}
+
+.section-head-descrip {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+}
+.outline-button3 {
+    align-items: center;
+    background-color: #23A6F0;
+    border: 1px solid #23A6F0;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    padding: 15px 40px;
+    flex-direction: column;
+    gap: 10px;
+}
+/*----section-packages----*/
+.section-packages {
+    display: flex;
+    /*width: 1050px;*/
+    padding: 160px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    flex-shrink: 0;
+    margin: 0px 195px 33px 195px;
+    justify-content: center;
+}
+
+.section-packages__header {
+    display: flex;
+    width: 691px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.section-packages__card{
+    background-color: white;
+    width: 248px;
+    height: 222px;
+    display: flex;
+    padding: 35px 40px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+
+}
+
+.section-packages__card_sq {
+
+    background-color: #E74040;
+    width: 70px;
+    height: 76px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+    display: flex;
+
+    flex-direction: column;
+    align-items: flex-start;
+
+
+
+}
+.section-packages-text{
+    width: 157px;
+    color: #252B42;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.1px;
+}
+.section-packages__card_line {
+    background-color: #E74040;
+    width: 50px;
+    height: 2px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.section-packages__card-text2 {
+    width: 136px;
+    height: 60px;
+    color: #737373;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+.icon-button__packages {
+    width: 32px;
+    height: 32px;
+    margin: 22px 19px;
+}
+
+.packages-carousel {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+}
 /*----course-item----*/
 .course-item {
     width: 330px;
