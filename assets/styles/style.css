@@ -41,9 +41,9 @@ body {
     text-align: center;
 }
 
-.section__course-carousel {
+/*section__course-carousel {
     margin-top: 80px;
-}
+}*/
 
 .course-carousel {
     display: flex;
@@ -295,6 +295,19 @@ body {
     justify-content: center;
 }
 /*----course-item----*/
+
+.section-course {
+    display: flex;
+    /*width: 1050px;*/
+    padding: 160px 0px;
+    flex-direction: column;
+    gap: 80px;
+    align-items: center;
+    flex-shrink: 0;
+    margin: 0px 195px;
+    justify-content: center;
+
+}
 .course-item {
     width: 330px;
 }
