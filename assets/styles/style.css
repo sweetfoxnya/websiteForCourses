@@ -4,6 +4,7 @@ body {
 
 .section {
     background-color: #252B42;
+    font-family: Montserrat;
 
 }
 
@@ -71,10 +72,12 @@ body {
 }
 
 .section-head__header {
-    width: 1322px ;
     height: 91px;
     position: absolute;
-
+    display: flex;
+    flex-direction: row;
+    gap: 41px;
+    align-items: center;
 }
 .section-head__brand {
     color: white;
@@ -86,14 +89,14 @@ body {
     display: inline-flex;
     padding: 13px 42px 13px 0px;
     align-items: center;
-    margin: 17px 999px 16px 136px;
+   /* margin: 17px 999px 16px 136px;*/
     width: 145px;
     height: 32px;
 
 }
 
 .section-head__navigation {
-    margin: 16px 143px 17px 364px;
+   /* margin: 16px 143px 17px 364px;*/
     display: inline-flex;
     padding: 3px 0px;
     justify-content: center;
@@ -107,6 +110,13 @@ body {
     gap: 21px;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.section-head__navigation-right {
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+    align-items: center;
 }
 .navigation-text {
     color: white;
@@ -462,25 +472,68 @@ body {
 
 .section-products__card{
     background-color: white;
-    width: 501px;
-    height: 438px;
+    width: 452px;
+    height: 414px;
     display: flex;
     padding: 25px 25px 0px 25px;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+
+}
+.section-products__center {
+
+    padding: 30px;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .section-products__card-text2 {
+    color:#737373;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+.stars {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.section-products__under {
+    padding: 0px 25px;
+    display: flex;
+    flex-direction: column;
+}
+.section-products__under1 {
+    color: #252B42;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+
+}
+.section-products__under2 {
     color: #737373;
     text-align: center;
     font-size: 14px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 20px;
+    font-weight: 1000;
+    line-height: 24px; /* 171.429% */
     letter-spacing: 0.2px;
-    width: 159px;
-    height: 120px;
+}
+
+.section-products__image {
+    width: 128px;
+    height: 128px;
+    flex-shrink: 0;
+    border-radius: 100px;
 }
 
 /*--------*/
