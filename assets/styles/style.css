@@ -538,6 +538,128 @@ body {
 
 /*--------*/
 
+/*----section-join----*/
+.section-join {
+    margin: 0px 195px;
+    padding: 160px 0px;
+    gap: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-join__head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.section-join__form {
+    display: flex;
+
+}
+.section-join__text {
+    color: #737373;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    padding: 15px 591px 15px 20px;
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid #E6E6E6;
+}
+
+.outline-button4 {
+    align-items: center;
+    background-color: #23A6F0;
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid #E6E6E6;
+    color: white;
+    display: flex;
+    padding: 15px 40px;
+    flex-direction: column;
+
+
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+}
+
+/*--------*/
+
+/*----section-bottom----*/
+.section-bottom {
+    margin: 0px 195px;
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 80px 0px;
+}
+
+.section-bottom__left-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+    flex-shrink: 0;
+}
+.section-bottom__left-text-header {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+}
+.section-bottom__left-text-subheader {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+
+}
+.section-bottom__left-text-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.section-bottom__icon {
+    width: 24px;
+    height: 19.765px;
+}
+.section-bottom__text-subheader {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px
+}
+.section-bottom__text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    flex-shrink: 0;
+}
+.section-bottom__subheader {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.2px;
+}
+
+/*--------*/
+
 /*----outline-button----*/
 .outline-button {
     align-items: center;
