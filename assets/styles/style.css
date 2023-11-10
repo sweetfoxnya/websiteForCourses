@@ -679,6 +679,111 @@ body {
 
 /*--------*/
 
+/*----section-watch----*/
+.section-watch {
+    display: flex;
+    /*width: 1050px;*/
+    padding: 160px 0px;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    flex-shrink: 0;
+    margin: 0px 195px;
+    justify-content: center;
+
+}
+.section-watch__description {
+    display: flex;
+   /* width: 507px;*/
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 35px;
+}
+.section-watch__description_line {
+    width: 94px;
+    height: 7px;
+    background: #E74040;
+}
+.section-watch__head {
+    color: #FFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px; /* 125% */
+    letter-spacing: 0.2px;
+}
+.section-watch__subhead {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.2px;
+}
+.section-watch__button {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+.section-watch__button-text {
+    color: #23A6F0;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.2px;
+}
+
+.section-watch__button-icon {
+    width: 9px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+}
+.section-watch__photo-front {
+    width: 408.093px;
+    height: 408.093px;
+    flex-shrink: 0;
+    border-radius: 0px 83.115px;
+    position: absolute;
+    top: 38px;
+    left: 0;
+}
+.section-watch__photo-square {
+    width: 408.093px;
+    height: 408.093px;
+    flex-shrink: 0;
+    border-radius: 0px 83.115px;
+    background: #00087E;
+    position: absolute;
+    top: 68px;
+    left: 30px;
+
+}
+.section-watch__photo-bottom {
+    width: 247px;
+    height: 247px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 350px;
+    right: -320px;
+}
+.section-watch__photo-right {
+    width: 115px;
+    height: 58px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 120px;
+    right: -505px;
+}
+.section-watch__photo {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+}
+/*--------*/
+
 /*----outline-button----*/
 .outline-button {
     align-items: center;
