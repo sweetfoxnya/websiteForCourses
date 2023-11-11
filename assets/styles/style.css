@@ -129,6 +129,15 @@ body {
     gap: 24px;
 
 }
+.navigation-text:hover {
+    cursor: pointer;
+    color: #23A6F0;
+    font-weight: 1000;
+    line-height: 24px;
+    text-decoration: underline;
+    font-style: italic;
+
+}
 
 .outline-button2 {
     align-items: center;
@@ -145,6 +154,15 @@ body {
     height: 52px;
     width: 214px;
 }
+.outline-button2:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    font-style: italic;
+    background-color: rgba(30, 135, 255, 0.86);
+    border: 1px solid rgba(30, 135, 255, 0.86);
+    height: 53px;
+    width: 215px;
+}
 .outline-button_arrow2:after {
     background-image: url('../icons/arrow-right-white.svg');
     content: '';
@@ -152,7 +170,6 @@ body {
     height: 10px;
     width: 12px;
 }
-
 
 .section-head__description {
     display: flex;
@@ -209,6 +226,13 @@ body {
     flex-direction: column;
     gap: 10px;
 }
+.outline-button3:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    font-style: italic;
+    background-color: rgba(30, 135, 255, 0.86);
+    border: 1px solid rgba(30, 135, 255, 0.86);
+}
 /*----section-packages----*/
 .section-packages {
     display: flex;
@@ -253,13 +277,13 @@ body {
     border-radius: 10px;
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
     display: flex;
-
     flex-direction: column;
     align-items: flex-start;
-
-
-
 }
+.section-packages__card_sq:hover {
+    background-color: #ea1e1e;
+}
+
 .section-packages-text{
     width: 157px;
     color: #252B42;
@@ -296,6 +320,11 @@ body {
     width: 32px;
     height: 32px;
     margin: 22px 19px;
+}
+.icon-button__packages:hover {
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
 }
 
 .packages-carousel {
@@ -347,7 +376,12 @@ body {
     top: 20px;
     left: 20px;
 }
-
+.course-item__sale:hover {
+    background-color: #ea1e1e;
+    cursor: pointer;
+    text-decoration: underline;
+    font-style: italic;
+}
 .course-item__actions {
     bottom: 24px;
     display: flex;
@@ -580,14 +614,17 @@ body {
     display: flex;
     padding: 15px 40px;
     flex-direction: column;
-
-
     text-align: center;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: 28px;
     letter-spacing: 0.2px;
+}
+.outline-button4:hover {
+    background-color: rgba(18, 102, 208, 0.86);
+    text-decoration: underline;
+    font-style: italic;
 }
 
 /*--------*/
@@ -619,6 +656,10 @@ body {
     line-height: 32px;
     letter-spacing: 0.1px;
 }
+.section-bottom__left-text-header:hover {
+    color: #a2a0a0;
+    cursor: pointer;
+}
 .section-bottom__left-text-subheader {
     color: #FFF;
     font-size: 14px;
@@ -626,8 +667,8 @@ body {
     font-weight: 400;
     line-height: 20px;
     letter-spacing: 0.2px;
-
 }
+
 .section-bottom__left-text-icons {
     display: flex;
     flex-direction: row;
@@ -639,11 +680,19 @@ body {
     width: 24px;
     height: 19.765px;
 }
+.section-bottom__icon:hover{
+    cursor: pointer;
+}
+
 .section-bottom__text-subheader {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 10px
+}
+.section-bottom__subheader:hover {
+    color: #a2a0a0;
+    cursor: pointer;
 }
 .section-bottom__text {
     display: flex;
@@ -734,6 +783,12 @@ body {
     line-height: 24px; /* 171.429% */
     letter-spacing: 0.2px;
 }
+.section-watch__button-text:hover {
+    cursor: pointer;
+    color: rgba(30, 135, 255, 0.86);
+    text-decoration: underline;
+    font-style: italic;
+}
 
 .section-watch__button-icon {
     width: 9px;
@@ -741,6 +796,7 @@ body {
     display: flex;
     align-items: center;
 }
+
 .section-watch__photo-front {
     width: 408.093px;
     height: 408.093px;
@@ -782,6 +838,7 @@ body {
     display: flex;
     justify-content: flex-start;
 }
+
 /*--------*/
 
 /*----outline-button----*/
@@ -797,6 +854,13 @@ body {
     gap: 10px;
     line-height: 24px;
     padding: 10px 20px;
+}
+.outline-button:hover {
+    cursor: pointer;
+    border: 1px solid rgba(18, 102, 208, 0.86);
+    color: rgba(18, 102, 208, 0.86);
+    text-decoration: underline;
+    font-style: italic;
 }
 
 .outline-button_arrow:after {
