@@ -909,19 +909,197 @@ body {
 }
 /*--------*/
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 510px) {
     padding-left: 10px;
     padding-right: 10px;
 
-
     .section-header__header {
+        color: white;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 50px;
+        margin: 10px 0;
+    }
+    .section-header__subheader {
+        color: white;
+        font-size: 10px;
+        line-height: 20px;
         text-align: center;
-        font-size: 30px;
-        line-height: 40px;
+    }
+    .section-header__title {
+        color: #23A6F0;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 24px;
+    }
+
+    .section-course {
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+        align-items: center;
+        flex-shrink: 0;
+        margin: auto;
+        justify-content: center;
     }
 
     .course-carousel {
         flex-direction: column;
         align-items: center;
     }
+    .packages-carousel {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+    }
+    .section-packages {
+        display: flex;
+        /* width: 1050px; */
+        padding: 160px 0px;
+        flex-direction: column;
+        align-items: center;
+        gap: 80px;
+        flex-shrink: 0;
+        margin: auto;
+        justify-content: center;
+    }
+    .products-carousel {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+    }
+    .section-products__card{
+        background-color: white;
+        width: 400px;
+        height: 400px;
+        display: flex;
+        padding: 25px 25px 0px 25px;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .section-join {
+        padding: 100px 0px;
+        gap: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+    .section-products {
+        margin: auto;
+        gap: 96px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-watch {
+        display: flex;
+        padding: 160px 0px;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        flex-shrink: 0;
+        margin: auto;
+        justify-content: center;
+    }
+    .section-join__text {
+        color: #737373;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0.2px;
+        padding: 9px 110px 9px 13px;
+        border-radius: 5px 0px 0px 5px;
+        border: 1px solid #E6E6E6;
+    }
+    .outline-button4 {
+        align-items: center;
+        background-color: #23A6F0;
+        border-radius: 0px 5px 5px 0px;
+        border: 1px solid #E6E6E6;
+        color: white;
+        display: flex;
+        padding: 9px 26px;
+        flex-direction: column;
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 0.2px;
+    }
+    .section-bottom__left-text-header {
+        color: #FFF;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0.1px;
+    }
+    .section-bottom__text-subheader {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 6px;
+    }
+    .section-bottom__subheader {
+        color: #FFF;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 15px;
+        letter-spacing: 0.2px;
+    }
+    .section-bottom__text__width238 {
+        width: 140px;
+    }
+    .section-bottom__text__width240 {
+        width: 100px;
+    }
+    .section-bottom__text__width241 {
+        width: 110px;
+    }
+    .section-bottom__left-text-header {
+        color: #FFF;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 15px;
+        letter-spacing: 0.1px;
+    }
+    .section-bottom__left-text-subheader {
+        color: #FFF;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0.2px;
+    }
+    .section-bottom__icon {
+        width: 15px;
+        height: 12.765px;
+    }
+    .section-bottom {
+        margin: auto;
+        gap: 19px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 80px 0px;
+        align-items: flex-start;
+    }
+    .section-bottom {
+        margin: 0px 195px;
+        gap: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        /* padding: 80px 0px; */
+        align-items: flex-start;
+    }
+
 }
