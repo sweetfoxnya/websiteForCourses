@@ -912,18 +912,19 @@ body {
     padding-left: 10px;
     padding-right: 10px;
 
+    .section-header__subheader {
+        color: white;
+        font-size: 10px;
+        line-height: 20px;
+        text-align: center;
+    }
+
     .section-header__header {
         color: white;
         font-size: 25px;
         font-weight: 700;
         line-height: 50px;
         margin: 10px 0;
-    }
-    .section-header__subheader {
-        color: white;
-        font-size: 10px;
-        line-height: 20px;
-        text-align: center;
     }
     .section-header__title {
         color: #23A6F0;
@@ -1288,6 +1289,21 @@ body {
         text-decoration: underline;
         font-style: italic;
     }
+    .section-watch__description {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 25px;
+    }
+    .section-watch__head {
+        color: #FFF;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 50px;
+        letter-spacing: 0.2px;
+    }
+
 
 
 }
